@@ -9,7 +9,7 @@ api_key = os.getenv('HUFFINGFACEHUB_ACCESS_TOKEN')
 
 
 llm = HuggingFaceEndpoint(
-    repo_id="meta-llama/Llama-3.1-8B-Instruct",
+    repo_id="meta-llama/Llama-3.1-8B",
     task="text-generation",
     huggingfacehub_api_token=api_key,
     temperature=2.0
